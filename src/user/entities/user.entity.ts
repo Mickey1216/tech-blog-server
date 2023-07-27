@@ -11,7 +11,7 @@ export class User {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
-  // 推荐列表
+  // 推荐列表id
   @Column("simple-array")
   recommendIdList: string[];
 
